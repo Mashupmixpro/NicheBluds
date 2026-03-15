@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Niche site. Let's NICHE</title>
+	<link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/card_img/2033297501697290240/5Pkh96yj?format=jpg&name=360x360"/>
+	<script type="text/javascript">
+		var toggle = true;
+
+		function tweak()
+		{
+			document.getElementById('sup').src='https://pbs.twimg.com/card_img/2033297346344206336/cAyCiPON?format=png&name=120x120'
+
+			var music = new Audio('https://www.myinstants.com/media/sounds/punch_u4LmMsr.mp3');
+
+			if (toggle){
+  				music.play();
+  				toggle = false;
+  			}
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<p>Hi</p>
+	</div>
+	<img src="https://pbs.twimg.com/card_img/2033297501697290240/5Pkh96yj?format=jpg&name=360x360"/>
+
+	<button type="button" onclick="tweak()">Press me....</button>
+
+	<div style="margin: auto;">
+		<img id="sup" width="800"/>
+	<div>
+</body>
+
+</html>
